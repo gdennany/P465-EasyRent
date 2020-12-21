@@ -1,0 +1,118 @@
+/*search box css start here*/
+.container{
+	text-align: center;
+}
+.title{
+	color: #4d4dff;
+	font-size: 40px;
+
+}
+
+.subtitle{
+	color: #4d4dff;
+	font-size: 30px;
+}
+.column{
+	float: left;
+	width: 33%;
+	padding: 1px;
+}
+.row::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+section {
+	position: relative;
+	top: 90px;
+}
+section img {
+	position: absolute;
+}
+.fadeimages img {
+	animation-name: fade;
+	animation-iteration-count: infinite;
+	animation-duration: 21s;
+}
+@keyframes fade {
+	0% {
+		opacity: 0.5;
+	}
+	23% {
+		opacity: 0.5;
+	}
+	33% {
+		opacity: 0;
+	}
+	90% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0.5;
+	}
+}
+#house1 {
+	animation-delay: -7s;
+
+}
+#house2 {
+
+	animation-delay: -14s;
+
+}
+#house3 {
+
+}
+#car1 {
+
+	animation-delay: -7s;
+
+}
+#car2 {
+
+	animation-delay: -14s;
+
+}
+#car3 {
+
+}
+#boat1 {
+
+	animation-delay: -7s;
+
+}
+#bike1 {
+
+	animation-delay: -14s;
+
+}
+#scooter1 {
+
+}
+
+/* Image examples for Rent Box here */
+
+.fixedImage {
+	width: 300px;
+	height: auto;
+}
+
+body {
+	background-color: white;
+}
+
+.fixedImage2 {
+	width: 100px;
+	height: 100px;
+
+}
+.fixedImage3 {
+	width: 150px;
+	height: 120px;
+	float: right;
+}
+
+.button1 button {
+	color: black;
+}

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: EasyRent
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: maazin
+Implementation-Vendor-Id: com.er
+Created-By: IntelliJ IDEA
+Build-Jdk: 13
+Main-Class: ${start-class}
+
